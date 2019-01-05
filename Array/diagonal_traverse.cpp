@@ -54,7 +54,7 @@ public:
     // Less condition checks
     // Time: O(n) scan the matrix once
     // Space: O(n) extra space to store the extra array
-    vector<int> findDiagonalOrderOptimal(vector<vector<int>>& matrix) {
+    vector<int> findDiagonalOrder_2(vector<vector<int>>& matrix) {
         if (matrix.empty() || matrix[0].empty()) return {};
         int m = matrix.size(), n = matrix[0].size(), k = 0;
         vector<int> res(m * n);
