@@ -61,6 +61,9 @@ public:
         // i+j = c, m[i][j], next is m[i-1][j+1] or m[i+1][j-1]
         for (int c = 0; c < m + n - 1; ++c) {
             // Get the bound of row index
+            // Upper bound is the smaller between c and max row index (m - 1)
+            // Lower bound is the larger between 0 and c - (n - 1) (column max index). The larger n - 1, the lower bound
+            // becomes larger until it reaches 0
             int low = max(0, c - n + 1), high = min(c, m - 1);
             if (c % 2 == 0) {
                 for (int i = high; i >= low; --i) {
