@@ -7,4 +7,4 @@ Leetcode accepted C++ solutions
 
 |Problem|Solution|Time|Space|Difficulty|Tag|
 |-----|---------------- | --------------- | --------------- | --------------- | --------------- |
-|[498. Diagonal Traverse]https://leetcode.com/problems/diagonal-traverse/|[C++](Array/diagonal_traverse.cpp)|O(n)|O(n)|Medium||
+|[498. Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[C++](Array/diagonal_traverse.cpp)|O(n)|O(n)|Medium||
