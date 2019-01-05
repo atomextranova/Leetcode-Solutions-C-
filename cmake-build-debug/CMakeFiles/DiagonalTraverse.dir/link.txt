@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/DiagonalTraverse.dir/Array/diagonal_traverse.cpp.o  -o DiagonalTraverse.exe -Wl,--out-implib,libDiagonalTraverse.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
