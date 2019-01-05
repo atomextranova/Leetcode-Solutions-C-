@@ -1,5 +1,5 @@
 # Leetcode-Solutions-C-
-Leetcode accepted C++ solutions. For each problem, multiple solutions might be provided.
+Leetcode accepted C++ solutions. For each problem, multiple solutions might be provided. Larger number after the method name indicates that method has better performance (in time or space or both) than methods with smaller numbers after their names.
 
 ## Array
 
